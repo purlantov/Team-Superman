@@ -1,6 +1,0 @@
-C:\Users\pafkata\Documents\superman\superman\bin\Debug\superman.exe.config
-C:\Users\pafkata\Documents\superman\superman\bin\Debug\superman.exe
-C:\Users\pafkata\Documents\superman\superman\bin\Debug\superman.pdb
-C:\Users\pafkata\Documents\superman\superman\obj\Debug\superman.csprojResolveAssemblyReference.cache
-C:\Users\pafkata\Documents\superman\superman\obj\Debug\superman.exe
-C:\Users\pafkata\Documents\superman\superman\obj\Debug\superman.pdb

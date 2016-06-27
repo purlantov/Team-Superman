@@ -1,205 +1,193 @@
-﻿AFRICA;
-    Algeria,
-    Angola,
-    Benin,
-    Botswana,
-    Burkina,
-    Burundi,
-    Cameroon,
-    Cape Verde,
-    Central African Republic,
-    Chad,
-    Comoros,
-    Congo,
-    Djibouti,
-    Egypt,
-    Equatorial Guinea,
-    Eritrea,
-    Ethiopia,
-    Gabon,
-    Gambia,
-    Ghana,
-    Guinea,
-    Guinea-Bissau,
-    Ivory Coast,
-    Kenya,
-    Lesotho,
-    Liberia,
-    Libya,
-    Madagascar,
-    Malawi,
-    Mali,
-    Mauritania,
-    Mauritius,
-    Morocco,
-    Mozambique,
-    Namibia,
-    Niger,
-    Nigeria,
-    Rwanda,
-    Sao Tome and Principe,
-    Senegal,
-    Seychelles,
-    Sierra Leone,
-    Somalia,
-    South Africa,
-    South Sudan,
-    Sudan,
-    Swaziland,
-    Tanzania,
-    Togo,
-    Tunisia,
-    Uganda,
-    Zambia,
-    Zimbabwe,
-
-ASIA;
-    Afghanistan
-    Bahrain
-    Bangladesh
-    Bhutan
-    Brunei
-    Burma,
-    Cambodia,
-    China,
-    East Timor,
-    India,
-    Indonesia,
-    Iran,
-    Iraq,
-    Israel,
-    Japan,
-    Jordan,
-    Kazakhstan,
-    Korea-North,
-    Korea-South,
-    Kuwait,
-    Kyrgyzstan,
-    Laos,
-    Lebanon,
-    Malaysia,
-    Maldives,
-    Mongolia,
-    Nepal,
-    Oman,
-    Pakistan,
-    Philippines,
-    Qatar,
-    Russian Federation,
-    Saudi Arabia,
-    Singapore,
-    Sri Lanka,
-    Syria,
-    Tajikistan,
-    Thailand,
-    Turkey,
-    Turkmenistan,
-    United Arab Emirates,
-    Uzbekistan,
-    Vietnam,
-    Yemen,
-
-EUROPE;
-    Albania,
-    Andorra,
-    Armenia,
-    Austria,
-    Azerbaijan,
-    Belarus,
-    Belgium,
-    Bosnia and Herzegovina,
-    Bulgaria,
-    Croatia,
-    Cyprus,
-    Czech Republic,
-    Denmark,
-    Estonia,
-    Finland,
-    France,
-    Georgia,
-    Germany,
-    Greece,
-    Hungary,
-    Iceland,
-    Italy,
-    Latvia,
-    Liechtenstein,
-    Lithuania,
-    Luxembourg,
-    Macedonia,
-    Malta,
-    Moldova,
-    Monaco,
-    Montenegro,
-    Netherlands,
-    Norway,
-    Poland,
-    Portugal,
-    Romania,
-    San Marino,
-    Serbia,
-    Slovakia,
-    Slovenia,
-    Spain,
-    Sweden,
-    Switzerland,
-    Ukraine,
-    United Kingdom,
-    Vatican City,
-
-NORTH_AMERICA;
-    Antigua and Barbuda
-    Bahamas
-    Barbados
-    Belize
-    Canada
-    Costa Rica
-    Cuba
-    Dominica
-    Dominican Republic
-    El Salvador
-    Grenada
-    Guatemala
-    Haiti
-    Honduras
-    Jamaica
-    Mexico
-    Nicaragua
-    Panama
-    Saint Kitts and Nevis
-    Saint Lucia
-    Saint Vincent and the Grenadines
-    Trinidad and Tobago
-    United States
-
-OCEANIA;
-    Australia,
-    Fiji,
-    Kiribati,
-    Marshall Islands,
-    Micronesia,
-    Nauru,
-    New Zealand,
-    Palau,
-    Papua New Guinea,
-    Samoa,
-    Solomon Islands,
-    Tonga,
-    Tuvalu,
-    Vanuatu,
-
-SOUTH_AMERICA;
-    Argentina,
-    Bolivia,
-    Brazil,
-    Chile,
-    Colombia,
-    Ecuador,
-    Guyana,
-    Paraguay,
-    Peru,
-    Suriname,
-    Uruguay,
-    Venezuela,
-
+﻿AFRICA,Algeria
+AFRICA,Angola
+AFRICA,Benin
+AFRICA,Botswana
+AFRICA,Burkina
+AFRICA,Burundi
+AFRICA,Cameroon
+AFRICA,Cape Verde
+AFRICA,Central African Republic
+AFRICA,Chad
+AFRICA,Comoros
+AFRICA,Congo
+AFRICA,Djibouti
+AFRICA,Egypt
+AFRICA,Equatorial Guinea
+AFRICA,Eritrea
+AFRICA,Ethiopia
+AFRICA,Gabon
+AFRICA,Gambia
+AFRICA,Ghana
+AFRICA,Guinea
+AFRICA,Guinea-Bissau
+AFRICA,Ivory Coast
+AFRICA,Kenya
+AFRICA,Lesotho
+AFRICA,Liberia
+AFRICA,Libya
+AFRICA,Madagascar
+AFRICA,Malawi
+AFRICA,Mali
+AFRICA,Mauritania
+AFRICA,Mauritius
+AFRICA,Morocco
+AFRICA,Mozambique
+AFRICA,Namibia
+AFRICA,Niger
+AFRICA,Nigeria
+AFRICA,Rwanda
+AFRICA,Sao Tome and Principe
+AFRICA,Senegal
+AFRICA,Seychelles
+AFRICA,Sierra Leone
+AFRICA,Somalia
+AFRICA,South Africa
+AFRICA,South Sudan
+AFRICA,Sudan
+AFRICA,Swaziland
+AFRICA,Tanzania
+AFRICA,Togo
+AFRICA,Tunisia
+AFRICA,Uganda
+AFRICA,Zambia
+AFRICA,Zimbabwe
+ASIA,Afghanistand
+ASIA,Bahrain
+ASIA,Bangladesh
+ASIA,Bhutan
+ASIA,Brunei
+ASIA,Burmad
+ASIA,Cambodiad
+ASIA,Chinad
+ASIA,East Timord
+ASIA,Indiad
+ASIA,Indonesiad
+ASIA,Irand
+ASIA,Iraqd
+ASIA,Israeld
+ASIA,Japand
+ASIA,Jordand
+ASIA,Kazakhstand
+ASIA,Korea-Northd
+ASIA,Korea-Southd
+ASIA,Kuwaitd
+ASIA,Kyrgyzstand
+ASIA,Laosd
+ASIA,Lebanond
+ASIA,Malaysiad
+ASIA,Maldivesd
+ASIA,Mongoliad
+ASIA,Nepald
+ASIA,Omand
+ASIA,Pakistand
+ASIA,Philippinesd
+ASIA,Qatard
+ASIA,Russian Federationd
+ASIA,Saudi Arabiad
+ASIA,Singapored
+ASIA,Sri Lankad
+ASIA,Syriad
+ASIA,Tajikistand
+ASIA,Thailandd
+ASIA,Turkeyd
+ASIA,Turkmenistand
+ASIA,United Arab Emiratesd
+ASIA,Uzbekistand
+ASIA,Vietnamd
+ASIA,Yemend
+EUROPE,Albaniad
+EUROPE,Andorrad
+EUROPE,Armeniad
+EUROPE,Austriad
+EUROPE,Azerbaijand
+EUROPE,Belarusd
+EUROPE,Belgiumd
+EUROPE,Bosnia and Herzegovinad
+EUROPE,Bulgariad
+EUROPE,Croatiad
+EUROPE,Cyprusd
+EUROPE,Czech Republicd
+EUROPE,Denmarkd
+EUROPE,Estoniad
+EUROPE,Finlandd
+EUROPE,Franced
+EUROPE,Georgiad
+EUROPE,Germanyd
+EUROPE,Greeced
+EUROPE,Hungaryd
+EUROPE,Icelandd
+EUROPE,Italyd
+EUROPE,Latviad
+EUROPE,Liechtensteind
+EUROPE,Lithuaniad
+EUROPE,Luxembourgd
+EUROPE,Macedoniad
+EUROPE,Maltad
+EUROPE,Moldovad
+EUROPE,Monacod
+EUROPE,Montenegrod
+EUROPE,Netherlandsd
+EUROPE,Norwayd
+EUROPE,Polandd
+EUROPE,Portugald
+EUROPE,Romaniad
+EUROPE,San Marinod
+EUROPE,Serbiad
+EUROPE,Slovakiad
+EUROPE,Sloveniad
+EUROPE,Spaind
+EUROPE,Swedend
+EUROPE,Switzerlandd
+EUROPE,Ukrained
+EUROPE,United Kingdomd
+EUROPE,Vatican Cityd
+NORTH_AMERICA,Antigua and Barbudad
+NORTH_AMERICA,Bahamasd
+NORTH_AMERICA,Barbadosd
+NORTH_AMERICA,Belized
+NORTH_AMERICA,Canadad
+NORTH_AMERICA,Costa_Ricad
+NORTH_AMERICA,Cubad
+NORTH_AMERICA,Dominicad
+NORTH_AMERICA,Dominican_Republicd
+NORTH_AMERICA,El Salvadord
+NORTH_AMERICA,Grenadad
+NORTH_AMERICA,Guatemalad
+NORTH_AMERICA,Haitid
+NORTH_AMERICA,Hondurasd
+NORTH_AMERICA,Jamaicad
+NORTH_AMERICA,Mexicod
+NORTH_AMERICA,Nicaraguad
+NORTH_AMERICA,Panamad
+NORTH_AMERICA,Saint Kitts and Nevisd
+NORTH_AMERICA,Saint Luciad
+NORTH_AMERICA,Saint Vincent and the Grenadinesd
+NORTH_AMERICA,Trinidad and Tobagod
+NORTH_AMERICA,United Statesd
+OCEANIA,Australiad
+OCEANIA,Fijid
+OCEANIA,Kiribatid
+OCEANIA,Marshall Islandsd
+OCEANIA,Micronesiad
+OCEANIA,Naurud
+OCEANIA,New Zealandd
+OCEANIA,Palaud
+OCEANIA,Papua New Guinead
+OCEANIA,Samoad
+OCEANIA,Solomon Islandsd
+OCEANIA,Tongad
+OCEANIA,Tuvalud
+OCEANIA,Vanuatud
+SOUTH_AMERICA,Argentinad
+SOUTH_AMERICA,Boliviad
+SOUTH_AMERICA,Brazild
+SOUTH_AMERICA,Chile
+SOUTH_AMERICA,Colombia
+SOUTH_AMERICA,Ecuador
+SOUTH_AMERICA,Guyana
+SOUTH_AMERICA,Paraguay
+SOUTH_AMERICA,Peru
+SOUTH_AMERICA,Suriname
+SOUTH_AMERICA,Uruguay
+SOUTH_AMERICA,Venezuela
 END

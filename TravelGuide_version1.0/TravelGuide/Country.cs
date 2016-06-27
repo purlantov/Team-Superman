@@ -1,41 +1,40 @@
 ﻿namespace TravelGuide
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Text;
-    using System.IO;
 
-    public class Country : Climat
+    public class Country
     {
-        public Capital Capital { get; set; }
-        public string Name { get; private set; }
+        public List<Continent> countryList = new List<Continent>();
 
-        //public List<City> MyProperty { get; set; }
-
-        public Country(string name)
+        public List<Continent> GetCountry()
         {
-            this.Name = name;
-        }
+            string filePath = "../../Countries.txt";
+            string[] str;
 
-        public string[] GetCountry()
-        {
-            var countriesList = new List<string>();
-            var continentsList = new List<string>();
-            using (StreamReader sr = new StreamReader("../../Countries.txt"))
+            try
             {
-                while (sr.ReadLine() != "END")
+                using (StreamReader sr = new StreamReader(filePath))
                 {
-                    string str = sr.ReadLine().TrimStart(' ');
-                    if (str.EndsWith(";"))
+                    while (sr.ReadLine() != "END")
                     {
-                        //str.Equals(Continents.Africa);
-                        continentsList.Add(str);
+                        str = sr.ReadLine().Split(',');
+                        countryList.Add(new Continent { Name = str[0], Country = str[1] });
                     }
                 }
             }
+            catch (Exception e)
+            {
+                // Let the user know what went wrong.
+                Console.WriteLine("The file could not be read:");
+                Console.WriteLine(e.Message);
+            }
 
-            return new string[] { "null" };
+            return countryList;
         }
     }
 }

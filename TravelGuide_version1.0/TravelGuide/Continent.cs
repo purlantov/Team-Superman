@@ -7,15 +7,39 @@
 
     public class Continent : Guide
     {
-        public enum Continents
+        //    public enum Continents
+        //    {
+        //        Asia = 1,
+        //        Africa = 2,
+        //        North_America = 3,
+        //        South_America = 4,
+        //        Antarctica = 5,
+        //        Europe = 6,
+        //        Australia = 7
+        //    }
+
+        public Continent()
         {
-            Asia = 1,
-            Africa = 2,
-            North_America = 3,
-            South_America = 4,
-            Antarctica = 5,
-            Europe = 6,
-            Australia = 7
+
+        }
+
+        public Continent(string name)
+        {
+            this.Name = name;
+        }
+
+        public Continent(string name, string country)
+            : this(name)
+        {
+            this.Country = country;
+        }
+
+        public string Name { get; set; }
+        public string Country { get; set; }
+
+        public override string ToString()
+        {
+            return String.Format("{0} {1}", Name, Country);
         }
     }
 }

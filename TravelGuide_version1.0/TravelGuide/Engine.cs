@@ -11,11 +11,16 @@ namespace TravelGuide
         {
             //Tetsting reading country from file
             Country country = new Country();
-            country.GetCountry();
+            var listOfCountries  = country.GetCountry();
+
+            foreach (var item in listOfCountries)
+            {
+                Console.WriteLine(item);
+            }
 
             //Diplay -- Print Dialog Form
-            GuideForm form = new GuideForm();
-            form.ShowDialog();
+            //GuideForm form = new GuideForm();
+            //form.ShowDialog();
         }
     }
 }

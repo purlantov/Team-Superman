@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.labelWelcome = new System.Windows.Forms.Label();
+            this.button_Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelWelcome
@@ -41,11 +42,22 @@
             this.labelWelcome.TabIndex = 0;
             this.labelWelcome.Text = "Welcome";
             // 
+            // button_Exit
+            // 
+            this.button_Exit.Location = new System.Drawing.Point(228, 213);
+            this.button_Exit.Name = "button_Exit";
+            this.button_Exit.Size = new System.Drawing.Size(75, 23);
+            this.button_Exit.TabIndex = 1;
+            this.button_Exit.Text = "Exit";
+            this.button_Exit.UseVisualStyleBackColor = true;
+            this.button_Exit.Click += new System.EventHandler(this.button_OnExit);
+            // 
             // GuideForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 503);
+            this.Controls.Add(this.button_Exit);
             this.Controls.Add(this.labelWelcome);
             this.Name = "GuideForm";
             this.Text = "Guide";
@@ -57,5 +69,6 @@
         #endregion
 
         private System.Windows.Forms.Label labelWelcome;
+        private System.Windows.Forms.Button button_Exit;
     }
 }

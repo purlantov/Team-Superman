@@ -16,5 +16,10 @@ namespace TravelGuide
         {
             InitializeComponent();
         }
+
+        private void button_OnExit(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

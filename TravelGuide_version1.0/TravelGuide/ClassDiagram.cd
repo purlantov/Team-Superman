@@ -7,27 +7,20 @@
       <FileName>Guide.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TravelGuide.Continent">
+  <Class Name="TravelGuide.Continent" Collapsed="true">
     <Position X="2.25" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
-    <NestedTypes>
-      <Enum Name="TravelGuide.Continent.Continents" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Continent.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Continent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TravelGuide.Country">
-    <Position X="2.25" Y="4.5" Width="1.5" />
+    <Position X="2.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Country.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -73,8 +66,8 @@
       <FileName>Display.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TravelGuide.Climat">
-    <Position X="2.25" Y="2.5" Width="1.5" />
+  <Class Name="TravelGuide.Climat" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>

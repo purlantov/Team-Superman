@@ -1,19 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TravelGuide
+﻿namespace TravelGuide
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public static class Engine
     {
-        public static void Run ()
+        public static void Run()
         {
-            #region Test reding counties from file
             //Tetsting reading country from file
-            //Country country = new Country();
-            //var listOfCountries = country.GetCountry();
+            Country country = new Country();
+            var listOfCountries = country.GetCountry();
 
+            #region Test reding counties from file
             //foreach (var item in listOfCountries)
             //{
             //    Console.WriteLine(item);
@@ -27,10 +27,13 @@ namespace TravelGuide
             //}
             #endregion
 
-            #region Test Windows Forms Show
+            #region Test Windows Forms
             //Diplay -- Print Dialog Form
             GuideForm form = new GuideForm();
             form.ShowDialog();
+            //form.PrintContinent("asia");
+            //form.PrintContinent("europe");
+            
             #endregion
 
 

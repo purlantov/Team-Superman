@@ -41,12 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ActivitiesAbstr.cs" />
+    <Compile Include="Activities\Event.cs" />
     <Compile Include="Contracts\IHostel.cs" />
     <Compile Include="Contracts\IHotel.cs" />
     <Compile Include="Contracts\IHousing.cs" />
     <Compile Include="Contracts\IRentApartment.cs" />
     <Compile Include="Contracts\ITentUnderTheStars.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="Enums\EnumEventType.cs" />
     <Compile Include="Housing\Hostel.cs" />
     <Compile Include="Housing\Hotel.cs" />
     <Compile Include="Housing\Housing.cs" />

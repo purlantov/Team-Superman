@@ -1,1 +1,2 @@
 C:\Users\pafkata\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\Debug\BudgetTourist.exe.config
+C:\Users\pavel\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\Debug\BudgetTourist.exe.config

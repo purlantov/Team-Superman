@@ -23,10 +23,10 @@
             this.StartTime = startTime;
         }
 
-        public string Name { get; }
-        public double Price { get; }
-        public string Location { get; }
-        public DateTime StartTime { get; }
+        public string Name { get; private set; }
+        public double Price { get; private set; }
+        public string Location { get; private set; }
+        public DateTime StartTime { get; private set; }
 
 
         public double Pay(double money)

@@ -12,6 +12,6 @@
         {
             this.Type = type;
         }
-        public EnumEventType Type { get; }
+        public EnumEventType Type { get; private set; }
     }
 }

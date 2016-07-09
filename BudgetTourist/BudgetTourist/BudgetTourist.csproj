@@ -58,6 +58,16 @@
     <Compile Include="Housing\TentUnderTheStars.cs" />
     <Compile Include="StartUP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transport\CityTransport\Cards\CityTransportCardsList.cs" />
+    <Compile Include="Transport\CityTransport\Cards\CityTransportCart.cs" />
+    <Compile Include="Transport\CityTransport\Contracts\ICartable.cs" />
+    <Compile Include="Transport\RentACar\Contracts\IVehicles.cs" />
+    <Compile Include="Transport\RentACar\Transports\Automobile.cs" />
+    <Compile Include="Transport\RentACar\Transports\Bicycle.cs" />
+    <Compile Include="Transport\RentACar\Transports\CarList.cs" />
+    <Compile Include="Transport\RentACar\Transports\Jeep.cs" />
+    <Compile Include="Transport\RentACar\Transports\MotorCykle.cs" />
+    <Compile Include="Transport\RentACar\Transports\RentACar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

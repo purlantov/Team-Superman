@@ -7,6 +7,7 @@
     using System.Threading.Tasks;
 
     using Contarcts;
+
     public abstract class ActivitiesAbstr : IActivities
     {
         private string name;

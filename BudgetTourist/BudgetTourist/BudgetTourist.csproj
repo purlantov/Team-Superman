@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Activities\ActivitiesAbstr.cs" />
     <Compile Include="Activities\Event.cs" />
+    <Compile Include="Contracts\IActivities.cs" />
     <Compile Include="Contracts\IHostel.cs" />
     <Compile Include="Contracts\IHotel.cs" />
     <Compile Include="Contracts\IHousing.cs" />

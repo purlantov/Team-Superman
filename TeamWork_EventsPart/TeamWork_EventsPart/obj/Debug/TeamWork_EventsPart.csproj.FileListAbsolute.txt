@@ -1,9 +1,0 @@
-c:\users\mypc\documents\visual studio 2015\Projects\TeamWork_EventsPart\TeamWork_EventsPart\bin\Debug\TeamWork_EventsPart.exe.config
-c:\users\mypc\documents\visual studio 2015\Projects\TeamWork_EventsPart\TeamWork_EventsPart\bin\Debug\TeamWork_EventsPart.exe
-c:\users\mypc\documents\visual studio 2015\Projects\TeamWork_EventsPart\TeamWork_EventsPart\bin\Debug\TeamWork_EventsPart.pdb
-c:\users\mypc\documents\visual studio 2015\Projects\TeamWork_EventsPart\TeamWork_EventsPart\obj\Debug\TeamWork_EventsPart.csprojResolveAssemblyReference.cache
-c:\users\mypc\documents\visual studio 2015\Projects\TeamWork_EventsPart\TeamWork_EventsPart\obj\Debug\TeamWork_EventsPart.exe
-c:\users\mypc\documents\visual studio 2015\Projects\TeamWork_EventsPart\TeamWork_EventsPart\obj\Debug\TeamWork_EventsPart.pdb
-C:\Users\MyPC\Source\Repos\Team-Superman\TeamWork_EventsPart\TeamWork_EventsPart\bin\Debug\TeamWork_EventsPart.exe.config
-C:\Users\MyPC\Source\Repos\Team-Superman\TeamWork_EventsPart\TeamWork_EventsPart\obj\Debug\TeamWork_EventsPart.exe
-C:\Users\MyPC\Source\Repos\Team-Superman\TeamWork_EventsPart\TeamWork_EventsPart\obj\Debug\TeamWork_EventsPart.pdb

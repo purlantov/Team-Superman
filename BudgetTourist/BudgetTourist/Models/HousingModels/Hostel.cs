@@ -1,7 +1,7 @@
-﻿namespace BudgetTourist.Housing
+﻿namespace BudgetTourist.Models.HousingModels
 {
     using Contracts;
-
+    using HousingContracts.Contracts;
     public class Hostel : Housing, IHostel
     {
         public Hostel(string name, int numberOfPeople, string location, decimal price, string parkingSpace, int numberOfBeds)

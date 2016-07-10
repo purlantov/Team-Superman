@@ -1,12 +1,7 @@
-﻿using BudgetTourist.Contarcts;
-using BudgetTourist.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BudgetTourist.Activities.Enums;
+using BudgetTourist.Contarcts.ActivitiesContracts;
 
-namespace BudgetTourist.Activities
+namespace BudgetTourist.Models.ActivitiesModels
 {
     public class Parks : Sightseeing, IActivities
     {

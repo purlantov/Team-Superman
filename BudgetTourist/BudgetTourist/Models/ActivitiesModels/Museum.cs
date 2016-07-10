@@ -1,12 +1,9 @@
-﻿using BudgetTourist.Contarcts;
-using BudgetTourist.Enums;
+﻿using BudgetTourist.Activities.Enums;
+using BudgetTourist.Contarcts.ActivitiesContracts;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BudgetTourist.Activities
+
+namespace BudgetTourist.Models.ActivitiesModels
 {
     public class Museum : Sightseeing, IActivities
     {
@@ -21,9 +18,9 @@ namespace BudgetTourist.Activities
             this.IsPaid = isPaid;
             this.Price = price;
             this.Location = location;
-            this.openingHour = openingHour;
-            this.closingHour = closingHour;
-            this.museumType = museumType;
+            this.OpeningHour = openingHour;
+            this.ClosingHour = closingHour;
+            this.MuseumType = museumType;
         }
 
         public DateTime OpeningHour { get; private set; }

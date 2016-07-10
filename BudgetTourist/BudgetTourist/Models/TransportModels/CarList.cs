@@ -1,5 +1,6 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
+    using HousingContracts.Contracts;
     using System;
     using System.Collections.Generic;
 

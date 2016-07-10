@@ -1,4 +1,4 @@
-﻿namespace BudgetTourist.Contracts
+﻿namespace BudgetTourist.HousingContracts.Contracts
 {
    public interface IRentApartment
     {

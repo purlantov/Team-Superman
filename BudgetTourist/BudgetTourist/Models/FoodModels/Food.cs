@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using BudgetTourist.Contracts.FoodContracts;
+using BudgetTourist.FoodEnums.Enum;
+using System;
 using System.Text;
-using ProjectFood.Enums;
-using ProjectFood.Contracts;
 
-namespace ProjectFood.Models
+namespace BudgetTourist.Models.FoodModels
 {
     public abstract class Food : IFood
     {

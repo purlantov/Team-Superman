@@ -1,4 +1,4 @@
-﻿namespace BudgetTourist.Contarcts
+﻿namespace BudgetTourist.Contarcts.ActivitiesContracts
 {
     public interface IActivities
     {

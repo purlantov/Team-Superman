@@ -1,12 +1,8 @@
-﻿using ProjectFood.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using ProjectFood.Enums;
-
-namespace ProjectFood.Models
+﻿namespace BudgetTourist.Models.FoodModels
 {
+    using Contracts.FoodContracts;
+    using FoodEnums.Enum;
+    using System.Text;
     public class Drink : IDrink
     {
         private string name;

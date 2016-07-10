@@ -1,4 +1,4 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.HousingContracts.Contracts
 {
     public interface IVehicles
     {

@@ -1,7 +1,8 @@
-﻿namespace BudgetTourist.Housing
+﻿namespace BudgetTourist.Models.HousingModels
 {
     using System;
     using Contracts;
+    using HousingContracts.Contracts;
     public class Hotel : Housing, IHotel
     {
         #region Constructors

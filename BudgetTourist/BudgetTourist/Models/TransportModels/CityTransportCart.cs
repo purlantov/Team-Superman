@@ -1,4 +1,6 @@
-﻿namespace TeamsSuperMan
+﻿using BudgetTourist.TransportContracts.Contracts;
+
+namespace BudgetTourist.Models.TransportModels
 {
     public class CityTransportCart : ICartable
     {

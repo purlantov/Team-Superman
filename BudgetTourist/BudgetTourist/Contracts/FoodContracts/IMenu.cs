@@ -1,11 +1,7 @@
-﻿using ProjectFood.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ProjectFood.Cotracts
+﻿namespace BudgetTourist.Contracts.FoodContracts
 {
+    using System.Collections.Generic;
+    
     public interface IMenu
     {
         ICollection<IFood> FoodList { get; }

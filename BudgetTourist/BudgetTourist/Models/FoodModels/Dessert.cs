@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using ProjectFood.Enums;
+﻿using BudgetTourist.FoodEnums.Enum;
+using System.Collections;
 
-namespace ProjectFood.Models
+namespace BudgetTourist.Models.FoodModels
 {
     public class Dessert : Food
     {

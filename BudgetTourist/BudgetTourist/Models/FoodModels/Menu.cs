@@ -1,11 +1,8 @@
-﻿using ProjectFood.Cotracts;
-using System;
+﻿using BudgetTourist.Contracts.FoodContracts;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using ProjectFood.Contracts;
 
-namespace ProjectFood.Models
+
+namespace BudgetTourist.Models.FoodModels
 {
     public class Menu : IMenu
     {
@@ -38,7 +35,7 @@ namespace ProjectFood.Models
         }
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString(); // TODO : override!
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.TransportContracts.Contracts
 {
     public interface ICartable
     {

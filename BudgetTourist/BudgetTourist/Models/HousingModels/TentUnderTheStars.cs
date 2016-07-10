@@ -1,8 +1,8 @@
-﻿namespace BudgetTourist.Housing
+﻿namespace BudgetTourist.Models.HousingModels
 {
     using Contracts;
+    using HousingContracts.Contracts;
 
-  
     public class TentUnderTheStars : Housing, ITentUnderTheStars     // that's going to be the ultimate option for all hardcore tourists out there...
     {
         public TentUnderTheStars(string name, string location, decimal price, string parkingSpace, int numberOfCompartments)

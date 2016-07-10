@@ -1,4 +1,4 @@
-﻿namespace BudgetTourist.Enums
+﻿namespace BudgetTourist.Activities.Enums
 {
     public enum EnumEventType
     {

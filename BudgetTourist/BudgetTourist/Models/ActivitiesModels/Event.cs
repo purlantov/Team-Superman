@@ -1,16 +1,14 @@
-﻿namespace BudgetTourist.Activities
+﻿namespace BudgetTourist.Models.ActivitiesModels
 {
+    using Activities.Enums;
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using Enums;
+
     public class Event : ActivitiesAbstr
     {
         private DateTime startTime;
 
-        public Event(string name, double price, string location, DateTime startTime, EnumEventType type) : base(name, price, location)
+        public Event(string name, double price, string location, DateTime startTime, EnumEventType type) : 
+            base(name, price, location)
         {
             this.StartTime = startTime;
             this.Type = type;

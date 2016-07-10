@@ -1,13 +1,13 @@
-﻿namespace BudgetTourist.Activities
+﻿namespace BudgetTourist.Models.ActivitiesModels
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
+
 
     using Contarcts;
-
+    using Contarcts.ActivitiesContracts;
     public abstract class ActivitiesAbstr : IActivities
     {
         private string name;

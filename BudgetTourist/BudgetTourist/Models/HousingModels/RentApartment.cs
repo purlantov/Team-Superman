@@ -1,6 +1,7 @@
-﻿namespace BudgetTourist.Housing
+﻿namespace BudgetTourist.Models.HousingModels
 {
     using Contracts;
+    using HousingContracts.Contracts;
     public class RentApartment : Housing, IRentApartment
     {
         public RentApartment(string name, string location, decimal price, string parkingSpace, int numberOfBedrooms)

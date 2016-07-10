@@ -56,7 +56,7 @@
     <Compile Include="Contracts\HousingContracts\IHostel.cs" />
     <Compile Include="Contracts\HousingContracts\IHotel.cs" />
     <Compile Include="Contracts\HousingContracts\IHousing.cs" />
-    <Compile Include="Contracts\FoodContracts\IRentApartment.cs" />
+    <Compile Include="Contracts\HousingContracts\IRentApartment.cs" />
     <Compile Include="Contracts\HousingContracts\ITentUnderTheStars.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Enums\ActivitiesEnum\ChurchType.cs" />

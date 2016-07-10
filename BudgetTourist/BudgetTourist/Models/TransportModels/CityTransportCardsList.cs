@@ -1,6 +1,7 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
     using System.Collections.Generic;
+    using TransportContracts.Contracts;
     public class CityTransportCardsList : List<ICartable>
     {
         public CityTransportCardsList()

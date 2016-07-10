@@ -9,7 +9,7 @@ namespace BudgetTourist.Models.FoodModels
         private double totalPrice = 0;
         
 
-        IList<IConsumable> orderList { get; set; }
+        ICollection<IConsumable> orderList { get; set; }
         public double TotalPrice
         {
             get

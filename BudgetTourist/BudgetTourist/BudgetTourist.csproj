@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Activities\ActivitiesAbstr.cs" />
     <Compile Include="Activities\Event.cs" />
+    <Compile Include="Common\Validator.cs" />
     <Compile Include="Contracts\IActivities.cs" />
     <Compile Include="Contracts\IDrink.cs" />
     <Compile Include="Contracts\IFood.cs" />

@@ -1,6 +1,7 @@
 ﻿namespace BudgetTourist.Housing
 {
     using Contracts;
+    using Common;
     public abstract class Housing : IHousing   // all housing types will derive from this abstract class Housing
     {
         #region Fields
@@ -27,24 +28,40 @@
         public string Name
         {
             get { return this.name; }
-            set { this.name = value; }
+            protected set
+            {
+                Validator.CheckIfStringIsNullOrEmpty(value, "Name can not be null or empty!");
+                this.name = value;
+            }
         }
         public string Location
         {
             get { return this.location; }
-            set { this.location = value; }
+            protected set
+            {
+                Validator.CheckIfStringIsNullOrEmpty(value, "Location can not be null or empty!");
+                this.location = value;
+            }
         }
 
         public decimal Price
         {
             get { return this.price; }
-            set { this.price = value; }
+            protected set
+            {
+                Validator.CheckIfLessThenZero(value, "Price can not be less then zero!");
+                this.price = value;
+            }
         }
         #endregion
         public string ParkingSpace
         {
             get { return this.parkingSpace; }
-            set { this.parkingSpace = value; }
+            protected set
+            {
+                Validator.CheckIfStringIsNullOrEmpty(value, "Parking space can not be null or empty!");
+                this.parkingSpace = value;
+            }
         }
     }
 }

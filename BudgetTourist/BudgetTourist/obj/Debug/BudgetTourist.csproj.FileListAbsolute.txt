@@ -7,3 +7,7 @@ C:\Users\pavel\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\De
 C:\Users\pavel\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.exe
 C:\Users\pavel\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.pdb
 C:\Users\Angelov\Desktop\superMan\Team-Superman\BudgetTourist\BudgetTourist\bin\Debug\BudgetTourist.exe.config
+C:\Users\Shopov\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\Debug\BudgetTourist.exe
+C:\Users\Shopov\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\Debug\BudgetTourist.pdb
+C:\Users\Shopov\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.exe
+C:\Users\Shopov\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.pdb

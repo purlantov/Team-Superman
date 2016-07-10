@@ -17,3 +17,4 @@ C:\Users\Monika\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\D
 C:\Users\Monika\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.csprojResolveAssemblyReference.cache
 C:\Users\Monika\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.exe
 C:\Users\Monika\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\obj\Debug\BudgetTourist.pdb
+C:\Users\pafkata\Documents\GitHub\Team-Superman\BudgetTourist\BudgetTourist\bin\Debug\BudgetTourist.exe.config

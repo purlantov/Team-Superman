@@ -13,20 +13,31 @@
         private string name;
         private double price;
         private string location;
-        private DateTime startTime;
+       
 
-        public ActivitiesAbstr(string name, double price, string location, DateTime startTime)
+        public ActivitiesAbstr(string name, double price, string location)
         {
             this.Name = name;
             this.Price = price;
             this.Location = location;
-            this.StartTime = startTime;
+            
         }
 
-        public string Name { get; private set; }
-        public double Price { get; private set; }
-        public string Location { get; private set; }
-        public DateTime StartTime { get; private set; }
+        public string Name {
+            get { return this.name; }
+            set { this.name = value; }
+        }
+        public double Price
+        {
+            get { return this.price; }
+            set { this.price = value; }
+        }
+        public string Location
+        {
+            get { return this.location; }
+            set { this.location = value; }
+        }
+        
 
 
         public double Pay(double money)
@@ -38,7 +49,7 @@
         {
             StringBuilder result = new StringBuilder();
 
-            result.Append(Name + " activity starts at " + StartTime.ToString() + " and is located on " + Location
+            result.Append(Name + " activity starts at " + " and is located on " + Location
                 + " and the price is " + Price + ".");
 
             return result.ToString();

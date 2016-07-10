@@ -8,10 +8,16 @@
     using Enums;
     public class Event : ActivitiesAbstr
     {
-        public Event(string name, double price, string location, DateTime startTime, EnumEventType type) : base(name, price, location, startTime)
+        private DateTime startTime;
+
+        public Event(string name, double price, string location, DateTime startTime, EnumEventType type) : base(name, price, location)
         {
+            this.StartTime = startTime;
             this.Type = type;
         }
+
         public EnumEventType Type { get; private set; }
+
+        public DateTime StartTime { get; private set; }
     }
 }

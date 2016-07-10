@@ -42,7 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\ActivitiesAbstr.cs" />
+    <Compile Include="Activities\Bar.cs" />
+    <Compile Include="Activities\Churches.cs" />
+    <Compile Include="Activities\Club.cs" />
     <Compile Include="Activities\Event.cs" />
+    <Compile Include="Activities\Landmarks.cs" />
+    <Compile Include="Activities\Museum.cs" />
+    <Compile Include="Activities\NightLife.cs" />
+    <Compile Include="Activities\Parks.cs" />
+    <Compile Include="Activities\Sightseeing.cs" />
     <Compile Include="Common\Validator.cs" />
     <Compile Include="Contracts\IActivities.cs" />
     <Compile Include="Contracts\IDrink.cs" />
@@ -54,7 +62,11 @@
     <Compile Include="Contracts\IRentApartment.cs" />
     <Compile Include="Contracts\ITentUnderTheStars.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="Enums\ChurchType.cs" />
     <Compile Include="Enums\EnumEventType.cs" />
+    <Compile Include="Enums\IsPaid.cs" />
+    <Compile Include="Enums\MuseumType.cs" />
+    <Compile Include="Enums\MusicType.cs" />
     <Compile Include="Food\Appetizer.cs" />
     <Compile Include="Food\Dessert.cs" />
     <Compile Include="Food\Drink.cs" />

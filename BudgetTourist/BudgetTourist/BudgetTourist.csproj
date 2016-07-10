@@ -77,7 +77,7 @@
     <Compile Include="Models\FoodModels\Food.cs" />
     <Compile Include="Models\FoodModels\MainDish.cs" />
     <Compile Include="Models\FoodModels\Menu.cs" />
-    <Compile Include="Models\FoodModels\Order.cs" />
+    <Compile Include="Models\FoodModels\FoodOrder.cs" />
     <Compile Include="Models\HousingModels\Hostel.cs" />
     <Compile Include="Models\HousingModels\Hotel.cs" />
     <Compile Include="Models\HousingModels\Housing.cs" />

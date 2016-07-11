@@ -4,6 +4,10 @@
     using System.Linq;
     using System.Collections.Generic;
 
+    using BudgetTourist.Models.TransportModels;
+    using BudgetTourist.TransportEnums.Enum;
+    using BudgetTourist.TransportContracts.Contracts;
+
     public class Transport
     {
         private CarList carList;

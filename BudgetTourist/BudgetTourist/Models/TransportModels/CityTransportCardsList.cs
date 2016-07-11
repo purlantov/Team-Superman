@@ -1,7 +1,8 @@
-﻿namespace BudgetTourist.Models.TransportModels
+﻿namespace TeamsSuperMan
 {
+    using System.Text;
     using System.Collections.Generic;
-    using TransportContracts.Contracts;
+
     public class CityTransportCardsList : List<ICartable>
     {
         public CityTransportCardsList()
@@ -12,9 +13,18 @@
             Add(new CityTransportCart("Three days card for metro", 10));
         }
 
-        public List<ICartable> GetCarts()
+        public string GetCarts()
         {
-            return this;
+            var sb = new StringBuilder();
+
+            foreach (var cart in this)
+            {
+                sb.AppendLine(cart.ToString());
+            }
+
+            return sb.ToString();
         }
+
+        
     }
 }

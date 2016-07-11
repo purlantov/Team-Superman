@@ -1,6 +1,5 @@
-﻿namespace BudgetTourist.Models.TransportModels
+﻿namespace TeamsSuperMan
 {
-    using HousingContracts.Contracts;
     using System;
 
     public class MotorCykle : RentACar, IVehicles
@@ -8,7 +7,7 @@
         public MotorCykle(string model, int year, decimal priceForDay)
             : base(model, year, priceForDay)
         {
-
+            this.Type = VehiclesType.Motorcykle;
         }
 
         public override string ToString()

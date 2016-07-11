@@ -1,9 +1,11 @@
-﻿namespace BudgetTourist.HousingContracts.Contracts
+﻿namespace TeamsSuperMan
 {
     public interface IVehicles
     {
         string Model { get; }
         int Year { get; }
         decimal PricePerDay { get; }
+        VehiclesType Type { get; }
+
     }
 }

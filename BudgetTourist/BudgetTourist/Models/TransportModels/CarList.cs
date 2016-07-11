@@ -1,7 +1,8 @@
-﻿namespace BudgetTourist.Models.TransportModels
+﻿namespace TeamsSuperMan
 {
-    using HousingContracts.Contracts;
     using System;
+    using System.Text;
+    using System.Linq;
     using System.Collections.Generic;
 
     public class CarList : List<IVehicles>
@@ -29,9 +30,18 @@
         /// <summary>
         /// Returns colection of all available cars
         /// </summary>
-        public List<IVehicles> GetCars()
+        public string GetCars(VehiclesType type)
         {
-            return this;
+            var sortedList = this.Where(x => x.Type == type).OrderBy(x => x.Model).ToList();
+
+            var sb = new StringBuilder();
+
+            foreach (var vehcle in sortedList)
+            {
+                sb.AppendLine(vehcle.ToString());
+            }
+
+            return sb.ToString();
         }
 
         /// <summary>

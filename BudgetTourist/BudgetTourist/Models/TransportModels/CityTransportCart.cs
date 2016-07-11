@@ -1,6 +1,4 @@
-﻿using BudgetTourist.TransportContracts.Contracts;
-
-namespace BudgetTourist.Models.TransportModels
+﻿namespace TeamsSuperMan
 {
     public class CityTransportCart : ICartable
     {
@@ -13,5 +11,10 @@ namespace BudgetTourist.Models.TransportModels
         public string Name { get; private set; }
 
         public decimal Price { get; private set; }
+
+        public override string ToString()
+        {
+            return string.Format("Name: {0} Price: {1}", this.Name, this.Price);
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
     using System;
     using System.Text;

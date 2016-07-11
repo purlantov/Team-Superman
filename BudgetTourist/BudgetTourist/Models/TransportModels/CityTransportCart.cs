@@ -1,5 +1,7 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
+    using BudgetTourist.TransportContracts.Contracts;
+
     public class CityTransportCart : ICartable
     {
         public CityTransportCart(string name, decimal price)

@@ -1,6 +1,8 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
     using System;
+
+    using BudgetTourist.TransportContracts.Contracts;
 
     public class Jeep : RentACar, IVehicles
     {

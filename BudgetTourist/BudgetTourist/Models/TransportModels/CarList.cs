@@ -1,9 +1,11 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
     using System;
     using System.Text;
     using System.Linq;
     using System.Collections.Generic;
+
+    using BudgetTourist.TransportContracts.Contracts;
 
     public class CarList : List<IVehicles>
     {

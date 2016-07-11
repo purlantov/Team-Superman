@@ -1,7 +1,9 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
     using System.Text;
     using System.Collections.Generic;
+
+    using BudgetTourist.TransportContracts.Contracts;
 
     public class CityTransportCardsList : List<ICartable>
     {
@@ -24,7 +26,5 @@
 
             return sb.ToString();
         }
-
-        
     }
 }

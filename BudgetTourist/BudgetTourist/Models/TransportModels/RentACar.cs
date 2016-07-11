@@ -1,7 +1,9 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.Models.TransportModels
 {
     using System;
     using System.Collections.Generic;
+
+    using BudgetTourist.TransportContracts.Contracts;
 
     public abstract class RentACar : IVehicles
     {

@@ -1,4 +1,4 @@
-﻿namespace TeamsSuperMan
+﻿namespace BudgetTourist.TransportEnums.Enum
 {
     public enum VehiclesType
     {

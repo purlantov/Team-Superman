@@ -4,6 +4,8 @@
     using System.Text;
     using System.Collections.Generic;
 
+    using BudgetTourist.TransportEnums.Enum;
+
     public class Automobile : RentACar, IVehicles
     {
         public Automobile(string model, int year, decimal priceForDay) : base(model, year, priceForDay)

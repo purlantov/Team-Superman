@@ -2,6 +2,7 @@
 {
     using System;
 
+    using BudgetTourist.TransportEnums.Enum;
     using BudgetTourist.TransportContracts.Contracts;
 
     public class MotorCykle : RentACar, IVehicles

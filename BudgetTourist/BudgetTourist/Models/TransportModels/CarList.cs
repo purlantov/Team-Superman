@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Collections.Generic;
 
+    using BudgetTourist.TransportEnums.Enum;
     using BudgetTourist.TransportContracts.Contracts;
 
     public class CarList : List<IVehicles>

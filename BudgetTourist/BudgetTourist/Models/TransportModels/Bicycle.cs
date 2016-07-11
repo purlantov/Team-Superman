@@ -1,7 +1,7 @@
 ﻿namespace BudgetTourist.Models.TransportModels
 {
     using System;
-
+    using BudgetTourist.TransportEnums.Enum;
     using BudgetTourist.TransportContracts.Contracts;
 
     public class Bicycle : RentACar, IVehicles

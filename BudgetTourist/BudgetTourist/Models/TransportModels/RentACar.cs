@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
 
+    using BudgetTourist.TransportEnums.Enum;
     using BudgetTourist.TransportContracts.Contracts;
 
     public abstract class RentACar : IVehicles

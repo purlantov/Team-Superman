@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BudgetTourist.Common.Validator" Collapsed="true">
+    <Position X="20" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Common\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Engines.Engine" Collapsed="true">
+    <Position X="14.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Engine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Engines.HotelFactory" Collapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\HotelFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Engines.MenuMaker" Collapsed="true">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAgAAAACAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\MenuMaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Engines.StartUP" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>StartUP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamsSuperMan.Engine.Transport" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAhAACAEAAQAAAAAAAAABAGAAAAAAAAAgAAAAAAIAA=</HashCode>
+      <FileName>Engine\Transport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.ActivitiesAbstr" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAgAEAAIAAAQCAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\ActivitiesAbstr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Bar" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Bar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Churches" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Churches.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Club" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Club.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Event" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Landmarks" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Landmarks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Museum" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAACQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Museum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.NightLife" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\NightLife.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Parks" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Parks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.ActivitiesModels.Sightseeing" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActivitiesModels\Sightseeing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.Appetizer" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\Appetizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.Dessert" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\Dessert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.Drink" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAQAAQAAAAAEAAAEAAQABAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\Drink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.Food" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAQAAQAAAAAEAAAAAAQAAAAEAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\Food.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.FoodOrder" Collapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\FoodOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.MainDish" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\MainDish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.FoodModels.Menu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAABgAAAAYAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FoodModels\Menu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BudgetTourist.Models.HousingModels.Hostel" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\HousingModels\Hostel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.HousingModels.Hotel" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HousingModels\Hotel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.HousingModels.Housing" Collapsed="true">
+    <Position X="3.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAgQAAAIAAAAIAAAQCAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HousingModels\Housing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.HousingModels.RentApartment" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HousingModels\RentApartment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.HousingModels.TentUnderTheStars" Collapsed="true">
+    <Position X="7.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\HousingModels\TentUnderTheStars.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.Automobile" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\Automobile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.Bicycle" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\Bicycle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.CarList" Collapsed="true">
+    <Position X="14.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\CarList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.CityTransportCardsList" Collapsed="true">
+    <Position X="16.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\CityTransportCardsList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.CityTransportCart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\CityTransportCart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.Jeep" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\Jeep.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.MotorCykle" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\MotorCykle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BudgetTourist.Models.TransportModels.RentACar" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAAAAAAEAAAAAAAAAAAAAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>Models\TransportModels\RentACar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BudgetTourist.Contarcts.ActivitiesContracts.IActivities" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAgAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ActivitiesContracts\IActivities.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.Contracts.FoodContracts.IConsumable" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\FoodContracts\IConsumable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.Contracts.FoodContracts.IDrink" Collapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\FoodContracts\IDrink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.Contracts.FoodContracts.IFood" Collapsed="true">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\FoodContracts\IFood.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.Contracts.FoodContracts.IMenu" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\FoodContracts\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.HousingContracts.Contracts.IHostel" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Contracts\HousingContracts\IHostel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.HousingContracts.Contracts.IHotel" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\HousingContracts\IHotel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.HousingContracts.Contracts.IHousing" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAIAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\HousingContracts\IHousing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.HousingContracts.Contracts.IRentApartment" Collapsed="true">
+    <Position X="18.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\HousingContracts\IRentApartment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.HousingContracts.Contracts.ITentUnderTheStars" Collapsed="true">
+    <Position X="20" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Contracts\HousingContracts\ITentUnderTheStars.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.TransportContracts.Contracts.ICartable" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\TransportContracts\ICartable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BudgetTourist.TransportContracts.Contracts.IVehicles" Collapsed="true">
+    <Position X="14.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>Contracts\TransportContracts\IVehicles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BudgetTourist.Activities.Enums.ChurchType" Collapsed="true">
+    <Position X="14.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Enums\ActivitiesEnum\ChurchType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.Activities.Enums.EnumEventType" Collapsed="true">
+    <Position X="20" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActivitiesEnum\EnumEventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.Activities.Enums.IsPaid" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActivitiesEnum\IsPaid.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.Activities.Enums.MuseumType" Collapsed="true">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAgAAAAAEAAAAAAAQAAAA=</HashCode>
+      <FileName>Enums\ActivitiesEnum\MuseumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.Activities.Enums.MusicType" Collapsed="true">
+    <Position X="18.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAABABAA=</HashCode>
+      <FileName>Enums\ActivitiesEnum\MusicType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.FoodEnums.Enum.DishType" Collapsed="true">
+    <Position X="16.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\FoodEnums\DishType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.FoodEnums.Enum.DrinkType" Collapsed="true">
+    <Position X="18.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAACAAAA=</HashCode>
+      <FileName>Enums\FoodEnums\DrinkType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BudgetTourist.TransportEnums.Enum.VehiclesType" Collapsed="true">
+    <Position X="20" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAIAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Enums\TransportEnums\VehiclesType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

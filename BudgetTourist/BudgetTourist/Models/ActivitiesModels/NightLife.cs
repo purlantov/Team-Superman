@@ -5,18 +5,16 @@ namespace BudgetTourist.Models.ActivitiesModels
 {
     public class NightLife : Sightseeing, IActivities
     {
-        private IsPaid isPaid;
-        private string location;
-        private MusicType musicType;
-        private string name;
-        private double price;
+        //private IsPaid isPaid;
+        //private string location;
+        //private MusicType musicType;
+        //private string name;
+        //private double price;
 
-        
-
-        public NightLife(string name, IsPaid isPaid, double price, string location, MusicType musicType) : 
-            base(name, isPaid, price, location)
+        public NightLife(string name, IsPaid isPaid, double price, string location, MusicType musicType) 
+            : base(name, isPaid, price, location)
         {
-            this.musicType = musicType;
+            this.MusicType = musicType;
         }
 
         public MusicType MusicType { get; protected set; }

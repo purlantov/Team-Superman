@@ -5,12 +5,10 @@ namespace BudgetTourist.Models.ActivitiesModels
 {
     public abstract class Sightseeing : ActivitiesAbstr, IActivities
     {
-        private IsPaid isPaid;
-        private string location;
-        private string name;
-        private double price;
-
-
+        //private IsPaid isPaid;
+        //private string location;
+        //private string name;
+        //private double price;
 
         public Sightseeing(string name, IsPaid isPaid, double price, string location) 
             : base(name, price, location)

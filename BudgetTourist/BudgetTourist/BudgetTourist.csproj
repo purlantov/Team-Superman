@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\HotelFactory.cs" />
+    <Compile Include="Enums\TransportEnums\VehiclesType.cs" />
     <Compile Include="Models\ActivitiesModels\ActivitiesAbstr.cs" />
     <Compile Include="Models\ActivitiesModels\Bar.cs" />
     <Compile Include="Models\ActivitiesModels\Churches.cs" />
@@ -58,7 +60,7 @@
     <Compile Include="Contracts\HousingContracts\IHousing.cs" />
     <Compile Include="Contracts\HousingContracts\IRentApartment.cs" />
     <Compile Include="Contracts\HousingContracts\ITentUnderTheStars.cs" />
-    <Compile Include="Engine.cs" />
+    <Compile Include="Engine\Engine.cs" />
     <Compile Include="Enums\ActivitiesEnum\ChurchType.cs" />
     <Compile Include="Enums\ActivitiesEnum\EnumEventType.cs" />
     <Compile Include="Enums\ActivitiesEnum\IsPaid.cs" />
@@ -70,7 +72,7 @@
     <Compile Include="Contracts\FoodContracts\IMenu.cs" />
     <Compile Include="Enums\FoodEnums\DishType.cs" />
     <Compile Include="Enums\FoodEnums\DrinkType.cs" />
-    <Compile Include="MenuMaker.cs" />
+    <Compile Include="Engine\MenuMaker.cs" />
     <Compile Include="Models\FoodModels\Appetizer.cs" />
     <Compile Include="Models\FoodModels\Dessert.cs" />
     <Compile Include="Models\FoodModels\Drink.cs" />
@@ -95,6 +97,7 @@
     <Compile Include="Models\TransportModels\Jeep.cs" />
     <Compile Include="Models\TransportModels\MotorCykle.cs" />
     <Compile Include="Models\TransportModels\RentACar.cs" />
+    <Compile Include="Engine\Transport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

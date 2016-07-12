@@ -3,10 +3,10 @@ using BudgetTourist.Contarcts.ActivitiesContracts;
 
 namespace BudgetTourist.Models.ActivitiesModels
 {
-    
+
     public class Churches : Sightseeing, IActivities
     {
-        private  ChurchType churchType;
+        //private ChurchType churchType;
 
         public Churches(string name, IsPaid isPaid, double price, string location, ChurchType churchtype) :
             base(name, isPaid, price, location)
@@ -15,7 +15,7 @@ namespace BudgetTourist.Models.ActivitiesModels
             this.ChurchType = churchtype;
         }
 
-        public  ChurchType ChurchType { get; set; }
+        public ChurchType ChurchType { get; set; }
 
 
 

@@ -1,4 +1,4 @@
-﻿namespace BudgetTourist
+﻿namespace BudgetTourist.Engines
 {
     using System;
     using System.Collections.Generic;

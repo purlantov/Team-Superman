@@ -5,10 +5,10 @@
 
     public class Event : ActivitiesAbstr
     {
-        private DateTime startTime;
+        //private DateTime startTime;
 
-        public Event(string name, double price, string location, DateTime startTime, EnumEventType type) : 
-            base(name, price, location)
+        public Event(string name, double price, string location, DateTime startTime, EnumEventType type)
+            : base(name, price, location)
         {
             this.StartTime = startTime;
             this.Type = type;

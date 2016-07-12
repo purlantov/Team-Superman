@@ -7,9 +7,9 @@ namespace BudgetTourist.Models.ActivitiesModels
 {
     public class Museum : Sightseeing, IActivities
     {
-        private DateTime openingHour;
-        private DateTime closingHour;
-        private MuseumType museumType;
+        //private DateTime openingHour;
+        //private DateTime closingHour;
+        //private MuseumType museumType;
 
         public Museum(string name, IsPaid isPaid, double price, string location, DateTime openingHour, DateTime closingHour, MuseumType museumType) 
             : base(name, isPaid, price, location)

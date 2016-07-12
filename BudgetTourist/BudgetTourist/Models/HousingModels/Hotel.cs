@@ -29,5 +29,10 @@
 
         #endregion
 
+        public override string ToString()
+        {
+            return String.Format("Hotel: {0}; Address: {1}; Price: {2} lv; Parking: {3}; Stars: {4}; Rooms available: {5}; Breakfast: {6}"
+                , Name, Location, Price, ParkingSpace, NumberOfStars, NumberOfRooms, Breakfast);
+        }
     }
 }

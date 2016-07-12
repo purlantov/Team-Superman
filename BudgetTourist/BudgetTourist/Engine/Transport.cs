@@ -1,4 +1,4 @@
-﻿namespace TeamsSuperMan
+﻿namespace TeamsSuperMan.Engine
 {
     using System;
     using System.Linq;

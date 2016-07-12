@@ -1,15 +1,14 @@
-﻿using BudgetTourist.Contracts.FoodContracts;
-using System.Collections.Generic;
-
-
-namespace BudgetTourist.Models.FoodModels
+﻿namespace BudgetTourist.Models.FoodModels
 {
+    using BudgetTourist.Contracts.FoodContracts;
+    using System.Collections.Generic;
+
     public class Menu : IMenu
     {
         private ICollection<IFood> foodList;
         private ICollection<IDrink> drinkList;
 
-        
+
         public ICollection<IDrink> DrinkList
         {
             get

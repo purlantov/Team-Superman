@@ -1,6 +1,5 @@
 ﻿namespace BudgetTourist.Models.HousingModels
 {
-    using Contracts;
     using Common;
     using HousingContracts.Contracts;
     public abstract class Housing : IHousing   // all housing types will derive from this abstract class Housing
@@ -54,7 +53,6 @@
                 this.price = value;
             }
         }
-        #endregion
         public string ParkingSpace
         {
             get { return this.parkingSpace; }
@@ -64,5 +62,6 @@
                 this.parkingSpace = value;
             }
         }
+        #endregion
     }
 }
